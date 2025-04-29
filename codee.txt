@@ -16,4 +16,4 @@ def get_temperature(city):
 
         return f"Temperature in {city}: {temp_celsius:.2f} °C or {temp_fahrenheit:.2f} °F"
     else:
-        return f"Could not find temperature for {city}"
+        print(f"The above temperature is not be replacewd {temp_fahrenheight}")
